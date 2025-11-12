@@ -1,0 +1,31 @@
+# Core dependencies
+fastapi==0.115.6
+uvicorn==0.32.1
+python-dotenv==1.1.1
+
+# LangChain dependencies
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.3.0
+langchain-google-genai>=2.0.0
+langchain-postgres>=0.0.10
+langchain-text-splitters>=0.3.0
+
+# Database dependencies
+psycopg2-binary==2.9.10
+pgvector==0.3.6
+SQLAlchemy==2.0.43
+
+# PDF processing
+pypdf==6.0.0
+
+# OpenAI
+openai==1.102.0
+
+# Google AI
+google-generativeai>=0.7.0
+
+# Utilities
+numpy==2.3.2
+tqdm==4.67.1
